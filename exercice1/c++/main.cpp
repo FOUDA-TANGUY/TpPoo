@@ -1,14 +1,14 @@
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include "nutriment.hpp"
 #include "aliment.hpp"
 #include "plat.hpp"
 
-int main(void)
+int main(int n,char** data)
 {
+    Plat a;
 
-    std::cout << "Hello World !!\n";
-    
-
-    return 0;
+   
+        return 0;
 }

@@ -9,7 +9,13 @@ class Nutriment
         std::string mName;
     
     public:
-        Nutriment(void);    
+        Nutriment(void);
+        Nutriment(std::string couleur,int poids,std::string name);
+        void set(std::string couleur,int poids,std::string name);
+        std::string getCouleur(void);
+        int getPoids(void);
+        std::string getName(void);
+        void presenter(void);    
         ~Nutriment();
 };
 
