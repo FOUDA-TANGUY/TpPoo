@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>igname bouillie avec patte d'aubergine.png</filename>
+	<path>/home/elvira/Images/igname bouillie avec patte d'aubergine.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>871</width>
+		<height>421</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sauce aubergine</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>383</xmin>
+			<ymin>81</ymin>
+			<xmax>671</xmax>
+			<ymax>363</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>igname bouillie</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>142</xmin>
+			<ymin>142</ymin>
+			<xmax>316</xmax>
+			<ymax>407</ymax>
+		</bndbox>
+	</object>
+</annotation>

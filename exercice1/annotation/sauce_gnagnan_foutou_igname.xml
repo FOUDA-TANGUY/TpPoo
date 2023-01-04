@@ -1,0 +1,62 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>sauce_gnagnan_foutou_igname .png</filename>
+	<path>/home/elvira/Images/sauce_gnagnan_foutou_igname .png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>823</width>
+		<height>582</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>foutou igname</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>302</xmin>
+			<ymin>13</ymin>
+			<xmax>602</xmax>
+			<ymax>185</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>sauce</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>162</xmin>
+			<ymin>98</ymin>
+			<xmax>285</xmax>
+			<ymax>178</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>gombo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>189</xmin>
+			<ymin>239</ymin>
+			<xmax>246</xmax>
+			<ymax>361</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>poulet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>221</ymin>
+			<xmax>397</xmax>
+			<ymax>359</ymax>
+		</bndbox>
+	</object>
+</annotation>

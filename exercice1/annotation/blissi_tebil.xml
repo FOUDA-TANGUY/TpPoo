@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>blissi_tebil.png</filename>
+	<path>/home/elvira/Images/blissi_tebil.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>325</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plantain braise</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>74</ymin>
+			<xmax>555</xmax>
+			<ymax>226</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>arahides</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>243</xmin>
+			<ymin>232</ymin>
+			<xmax>420</xmax>
+			<ymax>289</ymax>
+		</bndbox>
+	</object>
+</annotation>

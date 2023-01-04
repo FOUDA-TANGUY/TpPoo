@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>poulet_en_fricasse_a_la_creme.png</filename>
+	<path>/home/elvira/Images/poulet_en_fricasse_a_la_creme.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>736</width>
+		<height>352</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>poulet en friasse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>182</xmin>
+			<ymin>64</ymin>
+			<xmax>260</xmax>
+			<ymax>303</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>creme</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>286</xmin>
+			<ymin>179</ymin>
+			<xmax>330</xmax>
+			<ymax>275</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>feuilles vetes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>505</xmin>
+			<ymin>218</ymin>
+			<xmax>536</xmax>
+			<ymax>232</ymax>
+		</bndbox>
+	</object>
+</annotation>

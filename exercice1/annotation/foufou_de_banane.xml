@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>foufou_de_banane.png</filename>
+	<path>/home/elvira/Images/foufou_de_banane.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>817</width>
+		<height>575</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>foutou banane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>475</xmin>
+			<ymin>44</ymin>
+			<xmax>668</xmax>
+			<ymax>231</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>sauce noire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>140</xmin>
+			<ymin>225</ymin>
+			<xmax>241</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+</annotation>

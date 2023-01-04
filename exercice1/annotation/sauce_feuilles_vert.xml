@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>sauce_feuilles_vert.png</filename>
+	<path>/home/elvira/Images/sauce_feuilles_vert.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>588</width>
+		<height>457</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sauce feuilles vertes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>137</xmin>
+			<ymin>52</ymin>
+			<xmax>399</xmax>
+			<ymax>301</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>attieke</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>353</xmin>
+			<ymin>350</ymin>
+			<xmax>511</xmax>
+			<ymax>441</ymax>
+		</bndbox>
+	</object>
+</annotation>

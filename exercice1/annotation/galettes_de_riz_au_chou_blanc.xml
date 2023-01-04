@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>galettes_de_riz_au_chou_blanc.png</filename>
+	<path>/home/elvira/Images/galettes_de_riz_au_chou_blanc.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>707</width>
+		<height>316</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>galettes de riz</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>329</xmin>
+			<ymin>170</ymin>
+			<xmax>510</xmax>
+			<ymax>263</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>feuilles vetes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>547</xmin>
+			<ymin>195</ymin>
+			<xmax>592</xmax>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+</annotation>

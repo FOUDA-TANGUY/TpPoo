@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>toh de mais sauce gombo sec.png</filename>
+	<path>/home/elvira/Images/toh de mais sauce gombo sec.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>695</width>
+		<height>605</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>toh	maiis</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>61</xmin>
+			<ymin>172</ymin>
+			<xmax>231</xmax>
+			<ymax>371</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>sauce	gombo sec</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>406</xmin>
+			<ymin>178</ymin>
+			<xmax>579</xmax>
+			<ymax>478</ymax>
+		</bndbox>
+	</object>
+</annotation>
