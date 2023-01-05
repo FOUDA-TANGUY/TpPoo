@@ -3,18 +3,51 @@
 
 class Aliment
 {
-    private:
-        std::vector<Nutriment*> mListe;
-        std::string mName; 
+    protected:
+        std::string mName;
+        std::string mCategorie;
+        float mMasse;
     public:
-        Aliment(void);
-        Aliment(std::string name);
-        Nutriment pop(void);
+        Aliment();
+        Aliment(std::string,std::string,float);
+        void setAliment(std::string,std::string,float);
         std::string getName(void);
-        void setName(std::string name);
-        bool add(Nutriment*);
-        void presenter(void);
+        float getMasse(void);
+        std::string getCategorie(void);
         ~Aliment();
 };
+
+Aliment::Aliment()
+{
+    std::cout << "creation de l'aliment sans parametre\n";
+}
+Aliment::Aliment(std::string name,std::string categorie,float masse)
+{
+    this->setAliment(name,categorie,masse);
+    std::cout << "creation de l'aliment avec parametre\n";
+}
+void Aliment::setAliment(std::string name,std::string categorie,float masse)
+{
+    this->mName = name;
+    this->mCategorie = categorie;
+    this->mMasse = masse;
+}
+std::string Aliment::getName(void)
+{
+    return this->mName;
+}
+float Aliment::getMasse(void)
+{
+    return this->mMasse;
+}
+std::string Aliment::getCategorie(void)
+{
+    return this->mCategorie;
+}
+Aliment::~Aliment()
+{
+    std::cout << "Destruction de l'aliment\n";
+}
+
 
 #endif
