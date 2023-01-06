@@ -18,7 +18,7 @@ class Alimentener:Aliment
 
 Alimentener::Alimentener()
 {
-    std::cout <<"creation d'un aliment energetique\n";
+    
 }
 void  Alimentener::setEner(float lipide, float glucide, float proteine)
 {
@@ -40,7 +40,7 @@ float  Alimentener::getProteine(void)
 }
 Alimentener::~Alimentener()
 {
-    std::cout<<"destruction d'un aliment energetiqque\n";
+    
 }
 
 #endif

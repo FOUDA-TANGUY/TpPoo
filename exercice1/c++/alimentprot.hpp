@@ -18,7 +18,7 @@ class AlimentProd:Aliment
 
 AlimentProd::AlimentProd()
 {
-    std::cout<<"creation d'un aliment protecteur sans parametre\n";
+    
 }
 void AlimentProd::setProt(std::string vitamine,float fibre,float selmineraux)
 {
@@ -40,6 +40,6 @@ float AlimentProd::getFibre(void)
 }
 AlimentProd::~AlimentProd()
 {
-    std::cout<<"destruction d'un aliment protecteur sans parametre\n";
+    
 }
 #endif
