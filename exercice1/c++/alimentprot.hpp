@@ -1,7 +1,7 @@
 #ifndef __ALIMENTPROT__H__
 #define __ALIMENTPROT__H__
 
-class AlimentProd:Aliment
+class AlimentProd:public Aliment
 {
     private:
         std::string mVitamine;

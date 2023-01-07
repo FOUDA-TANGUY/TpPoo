@@ -70,6 +70,8 @@ float Plat::getQuantite(void)
 }
 void Plat::add(Aliment* alim)
 {
+    if(alim == nullptr)
+        return;
     element* elmt = new element();
     elmt->valeur = alim;
     elmt->next = nullptr;
@@ -83,7 +85,7 @@ void Plat::add(Aliment* alim)
     }
     else
         this->liste = elmt;
-    
+    return;
 }
 Aliment* Plat::pop(void)
 {
@@ -93,7 +95,7 @@ Aliment* Plat::pop(void)
     this->liste = elmt->next;
     this->mQuantite -= elmt->valeur->getMasse();
     Aliment* temp = elmt->valeur;
-    delete elmt;
+    //delete elmt;
     return temp;
 }
 Plat::~Plat()

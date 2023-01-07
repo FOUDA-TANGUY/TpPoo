@@ -1,7 +1,7 @@
 #ifndef __ALIMENTENER__H__
 #define __ALIMENTENER__H__
 
-class Alimentener:Aliment
+class Alimentener:public Aliment
 {
     private:
         float mLipide;
