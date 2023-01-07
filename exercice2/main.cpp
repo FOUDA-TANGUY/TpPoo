@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-
+#include <regex>
 #include <cstdlib>
 #include <fstream>
 
@@ -27,14 +27,39 @@ class Date
 };
 
 
-int main(void)
+int main(int argc,char **argv)
 {
+    if(argc != 4)
+    {
+        cerr << "Parametre invalide!!\n";
+        cout << "format: ./prog xx/xx/xxxx [nombre de mois] [nom ficheir sortie]\n";
+        cout << "EX:./prog 1/9/2022 9 ficheir\n";
+        return 0;
+    }
+
+    string x(argv[1]);
+    regex datepath("((\\d{1,2})[-/](\\d{1,2})[-/](\\d{1,5}))");
+    smatch m;
+    
+    if(!regex_search(x,m,datepath))
+    {
+        cerr << "Parametre date invalide !!\n";
+        cout << "format: ./prog xx/xx/xxxx [nombre de mois] [nom ficheir sortie]\n";
+        cout << "EX:./prog 1/9/2022 9 ficheir\n";
+        return 0;
+    }
+    cout << m[1].str()<< ":"<< m[2].str() << ":"<< m[3].str() <<"\n";
+    Date g(stoi(m[2].str()),stoi(m[3].str()),stoi(m[4].str()));
+    x = argv[2];
+    int nbMois = stoi(x);
+    x = argv[3];
+    x = x + ".collect";
+    ofstream fic(x);
     srandom(time(NULL));
-    Date g(1,9,2022);
     string aliments[8] = {"mais","manioc","plantain","riz","poison","viande","oeuf","haricot"};
     string mfl[5] = {"mangue","banane","orange","aucun","avocat"};
     string pb[12] = {"ballonnement","crampe","gaz","abdominales","diarrhe","constipation","aucun","aucun","aucun","aucun","aucun","aucun"};
-    ofstream fic("toto.data");
+    
     fic << left;
     fic << setfill('*');
     fic << "#" << setw(15) <<""<<"+"<< setw(15) <<""<<"+"<< setw(10) <<""<<"+"<< setw(10) <<""<<"+"<< setw(10) <<""<<"+"<< setw(15) <<""<<"+"<< setw(15) <<""<<"#\n";
@@ -45,7 +70,7 @@ int main(void)
     fic << setfill('_');
     fic << "#" << setw(15) <<""<<"+"<< setw(15) <<""<<"+"<< setw(10) <<""<<"+"<< setw(10) <<""<<"+"<< setw(10) <<""<<"+"<< setw(15) <<""<<"+"<< setw(15) <<""<<"#\n";
     int nbCons;
-    for(int i = 0; i < 122;i++)
+    for(int i = 0; i < nbMois*30;i++)
     {
         nbCons = 4 + random()%4;
         while(nbCons)
