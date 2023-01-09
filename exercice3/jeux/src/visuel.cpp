@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <cstdlib>
 
 #include <visuel.hpp>
@@ -7,8 +8,8 @@ using namespace std;
 
 Visuel::Visuel()
 {
-    this->setLongueur(100);
-    this->setLargeur(50);
+    this->setLongueur(60);
+    this->setLargeur(30);
     this->creerTexture();
 }
 Visuel::Visuel(int n, int m)
